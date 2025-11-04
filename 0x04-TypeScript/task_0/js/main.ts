@@ -20,11 +20,11 @@ const student2: Student = {
     age: 43,
     location:"niger"
 }
-const studentList: Student[] = [student1,student2];
+const studentsList: Student[] = [student1,student2];
 
 const table = document.createElement('table');
 
-for(const student of studentList){
+for(const student of studentsList){
     
     const table_row = document.createElement('tr');
     

@@ -11,10 +11,10 @@ var student2 = {
     age: 43,
     location: "niger"
 };
-var studentList = [student1, student2];
+var studentsList = [student1, student2];
 var table = document.createElement('table');
-for (var _i = 0, studentList_1 = studentList; _i < studentList_1.length; _i++) {
-    var student = studentList_1[_i];
+for (var _i = 0, studentsList_1 = studentsList; _i < studentsList_1.length; _i++) {
+    var student = studentsList_1[_i];
     var table_row = document.createElement('tr');
     var table_data = document.createElement('td');
     table_data.textContent = student.firstName;

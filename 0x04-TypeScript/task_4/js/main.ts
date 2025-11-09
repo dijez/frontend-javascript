@@ -11,7 +11,8 @@ const cpp = new Cpp();
 const java = new Java();
 const react = new React();
 
-export const cTeacher: Subjects.Teacher = {
+export const cTeacher: Teacher = {
+// export const cTeacher: Subjects.Teacher = {
   firstName: "Guillaume",
   lastName: "Salva",
   experienceTeachingC: 10,

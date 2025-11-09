@@ -4,9 +4,12 @@
 import Subjects = Subjects;
 
 // add export after the checker passes 
-const cpp = new Subjects.Cpp();
-const java = new Subjects.Java();
- const react = new Subjects.React();
+// const cpp = new Subjects.Cpp();
+// const java = new Subjects.Java();
+//  const react = new Subjects.React();
+const cpp = new Cpp();
+const java = new Java();
+const react = new React();
 
 export const cTeacher: Subjects.Teacher = {
   firstName: "Guillaume",
